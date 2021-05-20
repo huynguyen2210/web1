@@ -8,6 +8,27 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'AFTERNOON IN STEREO';
+    src: url('/fonts/afternoon-in-stereo-personal-us.regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DECALLED REGULAR';
+    src: url('/fonts/decalled-script-regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PLAYBALL REGULAR';
+    src: url('/fonts/playball-regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
 a {
     text-decoration: none;
 }
@@ -34,18 +55,21 @@ body {
 
 .logo {
     float: left;
-    margin: 20px 17px 0 0;
+    margin: 15px 17px 15px 0;
+    font: italic 60px "AFTERNOON IN STEREO";
+    color: #fff;
 }
 
 .slogan {
     float: left;
-    margin-top: 22px;
-    font: italic 16px "Times New Roman", Times, Georgia, serif;
-    color: rgba(255, 255, 255, .35);
+    margin-top: 32px;
+    font: italic 35px "AFTERNOON IN STEREO";
+    color: rgba(255, 255, 255, .5);
 }
 
 .nav {
     float: right;
+    padding: 15px 0;
 }
 
 .nav li {
@@ -71,17 +95,7 @@ body {
     clear: both;
 }
 
-.nav .how-it-works a:before {
-    content: "";
-    background: url(../images/help.png) no-repeat;
-    position: absolute;
-    width: 19px;
-    height: 20px;
-    top: 21px;
-    left: 24px;
-}
-
-.nav .sign-up a:before {
+.nav .about a:before {
     content: "";
     background: url(../images/user.png) no-repeat;
     position: absolute;
@@ -91,38 +105,37 @@ body {
     left: 24px;
 }
 
-.nav .login a:before {
-    content: "";
-    background: url(../images/lock.png) no-repeat;
-    position: absolute;
-    width: 14px;
-    height: 20px;
-    top: 21px;
-    left: 24px;
-}
+
+/* banner */
 
 .banner {
-    background-image: url(../images/bg-hero.jpg);
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* /* width: 100%; */
-    height: 465px;
+    height: 1000px;
     color: #fff;
     text-align: center;
     padding-top: 31px;
 }
 
+.banner .container {
+    padding-top: 65px;
+    color: #8e959c;
+    font-family: "PLAYBALL REGULAR";
+}
+
 .banner h1 {
     font-size: 52px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin: 0 0 30px;
 }
 
 .banner p {
     font-size: 22px;
     line-height: 36px;
-    font-weight: 600;
+    font-weight: 300;
     max-width: 715px;
     margin: 0 auto 51px;
 }
@@ -140,6 +153,7 @@ body {
     line-height: 50px;
     padding: 0 55px;
     margin: 0 11px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-green {
@@ -191,6 +205,10 @@ body {
 
 .blocks .photo {
     float: left;
+}
+
+.blocks .person img {
+    border-radius: 50%;
 }
 
 .blocks .text {
