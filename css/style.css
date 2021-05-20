@@ -10,21 +10,21 @@ html {
 
 @font-face {
     font-family: 'AFTERNOON IN STEREO';
-    src: url('/fonts/afternoon-in-stereo-personal-us.regular.ttf') format('truetype');
+    src: url('../fonts/afternoon-in-stereo-personal-us.regular.ttf') format('truetype');
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'DECALLED REGULAR';
-    src: url('/fonts/decalled-script-regular.ttf') format('truetype');
+    src: url('../fonts/decalled-script-regular.ttf') format('truetype');
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'PLAYBALL REGULAR';
-    src: url('/fonts/playball-regular.ttf') format('truetype');
+    src: url('../fonts/playball-regular.ttf') format('truetype');
     font-style: normal;
     font-display: swap;
 }
