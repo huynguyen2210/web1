@@ -1,0 +1,230 @@
+/* reponsive */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 912px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 684px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .logo {
+        float: none;
+        margin: 0px 17px 0px 17px;
+        padding-top: 20px;
+    }
+    .slogan {
+        float: none;
+        margin: 0 15px;
+        font-size: 35px;
+    }
+    .nav li {
+        border-left: none;
+    }
+    .nav a {
+        line-height: 50px;
+        font-size: 24px;
+    }
+    .nav .how-it-works a:before {
+        top: 15px;
+        left: 24px;
+    }
+    .nav .sign-up a:before {
+        top: 15px;
+        left: 24px;
+    }
+    .nav .login a:before {
+        top: 15px;
+        left: 24px;
+    }
+    .banner {
+        height: 100%;
+        text-align: center;
+        padding: 31px 0;
+    }
+    .banner h1 {
+        font-size: 45px;
+        margin: 0 0 10px;
+    }
+    .banner p {
+        font-size: 17px;
+        line-height: 30px;
+        margin: 0 auto 40px;
+    }
+    .btn {
+        border-radius: 10px;
+        font-weight: 800;
+        margin: 10px 11px;
+    }
+    .blocks .block {
+        float: none;
+        margin: 0 auto;
+    }
+    .blocks .block:first-child {
+        margin: 0 auto !important;
+    }
+    .news {
+        padding: 20px 0;
+        margin: 10px 0;
+    }
+    .news .one {
+        width: 340px;
+        margin-left: 30px;
+    }
+    .news .one:first-child {
+        margin-left: 30px !important;
+    }
+    .featured {
+        padding: 0 12px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .featured * {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .featured ul li {
+        margin-right: 38px;
+        margin-bottom: 15px;
+    }
+    .featured .title {
+        margin-right: 20px;
+    }
+    .footer .container {
+        padding-bottom: 10px;
+    }
+    .footer-nav .column {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .footer .social-link {
+        padding: 10px 0;
+    }
+    .footer .copyright {
+        position: unset;
+        font-size: 16px;
+    }
+    .copyright a {
+        margin-left: 18px;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .container {
+        width: 368px;
+        margin: 0 auto;
+    }
+    .logo {
+        float: none;
+        margin: 0px 17px 0px 17px;
+        padding-top: 20px;
+    }
+    .slogan {
+        float: none;
+        margin: 0 15px;
+        font-size: 35px;
+    }
+    .nav li {
+        border-left: none;
+    }
+    .nav a {
+        line-height: 50px;
+        font-size: 24px;
+    }
+    .nav .how-it-works a:before {
+        top: 15px;
+        left: 24px;
+    }
+    .nav .sign-up a:before {
+        top: 15px;
+        left: 24px;
+    }
+    .nav .login a:before {
+        top: 15px;
+        left: 24px;
+    }
+    .banner {
+        height: 100%;
+        text-align: center;
+        padding: 31px 0;
+    }
+    .banner h1 {
+        font-size: 45px;
+        margin: 0 0 10px;
+    }
+    .banner p {
+        font-size: 17px;
+        line-height: 30px;
+        margin: 0 auto 40px;
+    }
+    .btn {
+        border-radius: 10px;
+        font-weight: 800;
+        margin: 10px 11px;
+    }
+    .blocks .block {
+        float: none;
+        margin: 0 auto;
+    }
+    .blocks .block:first-child {
+        margin: 0 auto !important;
+    }
+    .news {
+        padding: 20px 0;
+        margin: 10px 0;
+    }
+    .news .one {
+        width: 340px;
+        margin-left: 30px;
+    }
+    .news .one:first-child {
+        margin-left: 30px !important;
+    }
+    .featured {
+        padding: 0 12px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .featured * {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .featured ul li {
+        margin-right: 38px;
+        margin-bottom: 15px;
+    }
+    .featured .title {
+        margin-right: 20px;
+    }
+    .footer .container {
+        padding-bottom: 10px;
+    }
+    .footer-nav .column {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .footer .social-link {
+        clear: both;
+        float: none;
+        padding: 10px 0;
+    }
+    .footer .copyright {
+        position: unset;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .copyright a {
+        margin-left: 18px;
+    }
+}
